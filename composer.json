@@ -1,0 +1,51 @@
+{
+    "name": "moonshine/zh",
+    "description": "Chinese localization for MoonShine",
+    "keywords": [
+        "laravel",
+        "zh",
+        "localization",
+        "admin",
+        "dashboard",
+        "moonshine"
+    ],
+    "type": "library",
+    "homepage": "https://moonshine-laravel.com",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/moonshine-software/ru/issues",
+        "source": "https://github.com/moonshine-software/ru"
+    },
+    "authors": [
+        {
+            "name": "Geekstek",
+            "email": "info@geekstek.com",
+            "homepage": "https://www.geekstek.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoonShine\\Zh\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MoonShine\\Zh\\Providers\\ZhServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {}
+    }
+}

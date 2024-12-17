@@ -1,0 +1,17 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "concat_space": {
+            "spacing": "one"
+        },
+        "no_superfluous_phpdoc_tags": {
+            "allow_hidden_params": false,
+            "allow_mixed": false,
+            "allow_unused_params": true,
+            "remove_inheritdoc": false
+        },
+        "types_spaces": {
+            "space": "single"
+        }
+    }
+}
