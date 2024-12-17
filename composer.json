@@ -1,5 +1,5 @@
 {
-    "name": "moonshine/zh",
+    "name": "willieong-hk/moonshine-zh",
     "description": "Chinese localization for MoonShine",
     "keywords": [
         "laravel",
@@ -10,11 +10,10 @@
         "moonshine"
     ],
     "type": "library",
-    "homepage": "https://moonshine-laravel.com",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/moonshine-software/ru/issues",
-        "source": "https://github.com/moonshine-software/ru"
+        "issues": "https://github.com/willieong-hk/moonshine-zh/issues",
+        "source": "https://github.com/willieong-hk/moonshine-zh"
     },
     "authors": [
         {
